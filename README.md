@@ -38,7 +38,7 @@ It also needs a configuration file, a sample is provided in the ext/ directory.
 The config file defines the "ilo_firmware_path" where you store the firmwares. It needs to have the following hierarchy :
 
 <pre>
-ilo\_firmware\_path/
+ilo_firmware_path/
 |
 |-v2/
   |- first.bin
@@ -64,14 +64,14 @@ Listing firmwares & upgrading a firmware :
 <pre>
 [mordor:~] knife ilo firmwares
 Firmwares in v3
- * ilo3\_120.bin
+ * ilo3_120.bin
 Firmwares in v2
- * ilo2\_213.bin
- * ilo2\_215.bin
+ * ilo2_213.bin
+ * ilo2_215.bin
 </pre>
 
 <pre>
-[r][mordor:~] knife ilo update foobar.lan ilo2\_215.bin --ilo 2
+[r][mordor:~] knife ilo update foobar.lan ilo2_215.bin --ilo 2
 About to update foobar.lan (ilo v2) with the following firmware file. OK ? (Y/N) [N]
 </pre>
 
