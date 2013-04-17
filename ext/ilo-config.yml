@@ -1,0 +1,11 @@
+global:
+  ilo_firmware_path: "/home/nico/sysadmin/ilo_firmwares/"
+  locfg_path: "/home/nico/.bin/locfg.pl"
+sites:
+  earth:
+    gateway: "172.16.1.254"
+  mars:
+    gateway: "172.16.0.254"
+  all:
+    dns_servers: [ "172.16.0.1", "172.16.1.1" ]
+    domain_name: "ilo.yourcompany.lan"
