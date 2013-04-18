@@ -4,7 +4,7 @@ This plugins aims to ease iLo BMC management.
 
 # Tell me more
 
-Actually, it can be used for 3 actions :
+It can be used for 3 actions :
 * update iLo firmware
 * setup networking on iLo card
 * reset iLo (reboot it)
